@@ -1,0 +1,38 @@
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  color: white;
+  height: 80%;
+  justify-content: space-between;
+  padding: 0rem 0.5rem;
+  border: 1px solid white;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50%;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+}
+
+.activeContainer img {
+  padding-left: 15px;
+}
+
+.textContainer h1 {
+  margin-bottom: 0px;
+  font-family: cursive;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid white;
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
