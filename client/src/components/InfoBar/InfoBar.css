@@ -9,6 +9,8 @@
 }
 
 .leftInnerContainer {
+  text-transform: uppercase;
+  font-family: cursive;
   flex: 0.5;
   display: flex;
   align-items: center;
